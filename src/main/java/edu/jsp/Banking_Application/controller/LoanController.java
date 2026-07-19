@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import edu.jsp.Banking_Application.entity.Loan;
 import edu.jsp.Banking_Application.entity.User;
 import edu.jsp.Banking_Application.service.LoanService;
-
+@CrossOrigin(origins = "https://banking-application-sigma.vercel.app/")
 @RestController
 @RequestMapping("api/loan")
 public class LoanController {
