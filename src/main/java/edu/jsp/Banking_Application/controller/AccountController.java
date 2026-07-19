@@ -15,7 +15,7 @@ import edu.jsp.Banking_Application.entity.Account;
 import edu.jsp.Banking_Application.entity.User;
 import edu.jsp.Banking_Application.exception.NotFoundException;
 import edu.jsp.Banking_Application.service.AccountService;
-
+@CrossOrigin(origins = "https://banking-application-sigma.vercel.app/")
 @RestController
 @RequestMapping("api/account")
 public class AccountController {
