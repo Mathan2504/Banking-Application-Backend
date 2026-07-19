@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+import org.springframework.web.bind.annotation.CrossOrigin;
 import edu.jsp.Banking_Application.entity.Account;
 import edu.jsp.Banking_Application.entity.User;
 import edu.jsp.Banking_Application.exception.NotFoundException;
