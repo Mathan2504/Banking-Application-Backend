@@ -18,6 +18,7 @@ import edu.jsp.Banking_Application.entity.Transaction;
 import edu.jsp.Banking_Application.exception.NotFoundException;
 import edu.jsp.Banking_Application.service.TransactionService;
 
+@CrossOrigin(origins = "https://banking-application-sigma.vercel.app/")
 @RestController
 @RequestMapping("api/transaction")
 public class TransactionController {
